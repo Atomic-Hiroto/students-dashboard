@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+#main{
+    display: flex;
+    height: "vh100";
+}
+
+#sidebar{
+    width: 20%;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+}
+#sidebar > div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#container{
+    padding: 20px;
+    border: 1px solid black;
+    flex-grow: 1;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+
